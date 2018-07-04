@@ -14,9 +14,13 @@ Save the R code to a directory. i.e., /Users/rfarrow_bot/rfarrow_bot.R
 1. Edit the lines at the top of the code under the "USER CONFIGURABLE INPUT PARAMETERS" section This is done as follows:
 
 1a. Directories: Pick whatever works for you. A suggested structure and notes are listed in the code comments.
-1b. Filename: For the file that will be saved and used for comparison to check for new articles, what do you want the name to be.
+
+1b. Filename: For the file that will be saved and used as the ongoing base to check for new articles, what do you want the filename to be
+
 1c. Author String: List the author URL on The New Yorker. For Ronan Farrow, the full URL is https://www.newyorker.com/contributors/ronan-farrow. Just list the "ronan-farrow" portion here.
+
 1d. Bot Tweet: What do you want the early porton of the tweet to say when the bot tweets.
+
 1e. Twitter token: If you do not have an rtweet twitter token, the method for obtaining and saving one is here: http://rtweet.info/articles/auth.html
 
 2. Save and rename the provided initial .csv file to the main_dir. This should be consistent with the file naming above. i.e., so if we picked "rfarrow" above, we should ensure the file name is named rfarrow.csv.
