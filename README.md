@@ -23,7 +23,7 @@ Save the R code to a directory. i.e., /Users/rfarrow_bot/rfarrow_bot.R
 
 1e. Twitter token: If you do not have an rtweet twitter token, the method for obtaining and saving one is here: http://rtweet.info/articles/auth.html
 
-2. Save and rename the provided initial .csv file to the main_dir. This should be consistent with the file naming above. i.e., so if we picked "rfarrow" above, we should ensure the file name is named rfarrow.csv.
+2. Save and rename the provided initial .csv file to the main_dir. This should be consistent with the file naming above in (1b). i.e., so if we picked "rfarrow" above, we should ensure the file name is named rfarrow.csv.
 
 3. Create an empty file where errors can be logged. The file must be in the main_dir and must be specifically named std_msgs.txt (Linux/Ubuntu command to do this: touch std_msgs.txt)
 
