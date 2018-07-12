@@ -21,8 +21,8 @@ Sys.setenv(TZ='America/New_York')
 # It is suggested to make backups as subdirectories of the main_dir
 # i.e., bkup_dir = /main_dir/backups/
 # Note - you must include the trailing slash and you must leave the quotation marks
-main_dir <- "/home/rstudio1/twitter_scripts/journo_scrapers/tny/rfarrow_bot/"
-bkup_dir <- "/home/rstudio1/twitter_scripts/journo_scrapers/tny/rfarrow_bot/backups/"
+main_dir <- "INSERT A DIRECTORY NAME HERE"
+bkup_dir <- "INSERT A BACKUP DIRECTORY NAME HERE"
 
 # For the file that will be saved and used for comparison to check for new articles
 # what should the name be. For example, if you wanted to create a bot for Ronan Farrow,
@@ -42,7 +42,7 @@ whattimeisit = "#RonanTime"
 # As noted below, it is suggested to place this file in the main_dir
 # See http://rtweet.info/articles/auth.html on how to create this twitter token
 # You must leave the quotation marks and list your filename within those
-twitter_token <- readRDS(paste0(main_dir,"rfarrow_bot_token.rds"))
+twitter_token <- readRDS(paste0(main_dir,"INSERT YOUR TWITTER TOKEN FILENAME"))
 
 # How frequently the loop should check for new articles
 # The number here is how many seconds the loop will "sleep"
