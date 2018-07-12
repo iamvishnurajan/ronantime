@@ -29,4 +29,4 @@ Save the R code to a directory. i.e., /Users/rfarrow_bot/rfarrow_bot.R
 
 4. At this time, if you run the code, it will populate the file and generate tweets for the articles since the initial .csv was generated (July 3, 2018).
 
-5. If you want to continue polling and tweeting, schedule as needed with crontab (or other scheduling tool). Suggested run frequency is every 5-10 minutes.
+5. If you want to continue polling and tweeting, schedule as needed so the script begins at reboot. It is designed to be an infinite loop until sometime in the year 2200. It will pickup where it left off when rebooted (that is the main purpose of the .csv file that it writes to).
